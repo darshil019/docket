@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
+        {/* this are routes÷ */}
         <Routes>
           <Route path="User/Login" element={<UserLogin />} />
         </Routes>
